@@ -1,5 +1,6 @@
 # Sparkle
-A tiny interface for the Spark40 guitar amp
+A tiny interface for the Spark40 guitar amp.
+
 Richard Jackett, 2021
 
 This is a work in progress.  There are many bugs still, and it can be a bit janky, but it is functional.
@@ -24,7 +25,7 @@ Basic operation:
 * Parameters are changed by dragging up or down within each slider. The value (%) is shown above. Change happens on release.
 * Double tap on a slider is supposed to set it alternately to zero, then to 100 (to work like a switch). Currently flaky.
 * Sliders that show -1 are not used by the current effect.
-* Turn the current effect on/off by the centre button (BtnB).
+* Turn the current effect on/off by the centre button (BtnB). Yellow text if on, White if off.
 * Cycle through hardware presets (0 to 3) using the right button (BtnC).
 * The left button (BtnA) toggles whether the 'Extra' (hidden) effects are enabled (like extra amps, treble booster, etc).
 * The status light bottom right is yellow when connecting, and green when connected to Spark40
