@@ -9,8 +9,11 @@ Enormous thanks and recognition to Paul Hamshere for his SparkClass and for the 
 This will only work on the M5Stack Core2 hardware, although it could be modified to work on any ESP32 with a touchscreen with enough work.  It will not work on the M5stack Core, as that doesn't have a touch screen.
 
 Sparkle needs these to work:
+
 M5Core2.h --- Install the M5Core2 library. I think I'm using the older version of this 0.01, but hopefully it works with the new version too.
+
 BluetoothSerial.h --- ESP32 bluetooth from Espressif
+
 ArduinoJson.h --- by Benoit Blanchon
 
 The Arduino IDE will want you to put the Sparkle code in a folder with the same title.
