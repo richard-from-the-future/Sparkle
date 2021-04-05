@@ -5,15 +5,15 @@ Richard Jackett, 2021
 
 This is a work in progress.  There are many bugs still, and it can be a bit janky, but it is functional.
 
-Enormous thanks and recognition to Paul Hamshere for his SparkClass and for the SparkPedalOverride code, which I used as the basis for this program.
+Enormous thanks and credit to Paul Hamshere for his SparkClass and for the SparkPedalOverride code, which I used as the basis for this program.
 
 This will only work on the M5Stack Core2 hardware, although it could be modified to work on any ESP32 with a touchscreen with enough work.  It will not work on the M5stack Core, as that doesn't have a touch screen.
 
 Sparkle needs these to work:
 
-M5Core2.h --- Install the M5Core2 library. I think I'm using the older version of this 0.01, but hopefully it works with the new version too.
+**ropg's fork of M5Core2** --- https://github.com/ropg/M5Core2  I think most of this is now rolled into the main branch, but some types have been renamed, so for now the linked version is needed. Sorry.
 
-BluetoothSerial.h --- ESP32 bluetooth from Espressif
+BluetoothSerial --- ESP32 bluetooth from Espressif https://github.com/espressif/arduino-esp32
 
 ArduinoJson.h --- by Benoit Blanchon
 
